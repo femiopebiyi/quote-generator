@@ -86,9 +86,11 @@ h3{
 
 footer{
     width: 90%;
-    margin: 0 auto;
+    margin: auto;
     position: absolute;
     bottom: 3%;
+    left: 0;
+    right: 0;
     max-width: 900px;
 
 }

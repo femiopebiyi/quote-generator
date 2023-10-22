@@ -203,6 +203,10 @@ export const motivationalQuotes = [
     quote: "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
     author: "Roy T. Bennett",
 },
+{
+    quote: "It's in your hands",
+    author: "Opebiyi Oluwafemi Babatunde"
+}
 ];
 
 

@@ -6,8 +6,7 @@ const generateButton  = document.querySelector('.generate')
 
 
 function generateRandomQuotes (){
-    let randomizer = Math.floor(Math.random()*49)
-    
+    let randomizer = Math.floor(Math.random()*motivationalQuotes.length-1)
     let randomQuote = motivationalQuotes[randomizer].quote
     let randomAuthor = motivationalQuotes[randomizer].author
 
