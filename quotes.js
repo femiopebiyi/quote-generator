@@ -260,6 +260,11 @@ export const motivationalQuotes = [
     quote: "Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.",
     author: "Roy T. Bennett",
     Image: 'images/roypic.jpg'
+},
+{
+    quote: 'Two mids can co-exist',
+    author: 'Ijenebe Francis Chukwuyenu',
+    Image: 'images/ijenebepic.png'
 }
 ];
 
