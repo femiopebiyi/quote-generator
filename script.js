@@ -5,6 +5,7 @@ let authorDisplay =  document.querySelector('.author');
 let imageDisplay = document.querySelector('.image')
 const autoGenerate = document.querySelector('.auto');
 const generateButton  = document.querySelector('.generate');
+const readAloud = document.querySelector('.speak');
 
 
 
@@ -47,4 +48,14 @@ autoGenerate.addEventListener ('click', () => {
         autoGenerate.innerHTML = 'Auto Generate'
     }
 
+})
+
+readAloud.addEventListener ("click", ()=>{
+    let words =  quoteDisplay.textContent;
+    words = words.replace(/\.$/, '');
+
+    let speech = new SpeechSynthesisUtterance (words + "  by " + authorDisplay.textContent);
+    speech.lang = 'en-GB';
+
+    speechSynthesis.speak(speech)
 })
