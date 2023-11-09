@@ -54,7 +54,7 @@ readAloud.addEventListener ("click", ()=>{
     let words =  quoteDisplay.textContent;
     words = words.replace(/\.$/, '');
 
-    let speech = new SpeechSynthesisUtterance (words + "  by " + authorDisplay.textContent);
+    let speech = new SpeechSynthesisUtterance (words + "  by  " + authorDisplay.textContent);
     speech.lang = 'en-GB';
 
     speechSynthesis.speak(speech)
